@@ -5,7 +5,11 @@
 	<artifactId>hotels</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-
+	<name>embeddedTomcatSample Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<tomcat.version>8.5.23</tomcat.version>
+	</properties>
 	<build>
 		<plugins>
 			<plugin>
