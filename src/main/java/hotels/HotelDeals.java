@@ -1,5 +1,7 @@
 package hotels;
 
+import com.google.gson.Gson;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,9 +12,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-
-import com.google.gson.Gson;
-import com.sun.javafx.collections.MappingChange.Map;
 
 public class HotelDeals implements Deals<Hotel> {
 	private final String url = "https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel";
